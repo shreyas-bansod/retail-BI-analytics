@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated data
+Data/Raw/*.csv
+Data/Cleaned/*.csv
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Power BI temporary files
+*.pbit
+*.tmp
+~$*
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
