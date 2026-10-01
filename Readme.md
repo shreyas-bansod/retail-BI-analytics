@@ -370,7 +370,9 @@ The final analysis produced the following results:
 
 ## Power BI Dashboard
 
-The final Power BI dashboard provides an interactive overview of the retail business and allows users to explore sales, profitability, customers, orders, shipping, and returns.
+The redesigned Power BI dashboard provides an interactive overview of retail sales, profitability, product performance, and customer segments.
+
+The dashboard uses a clean layout with a dedicated **left-side filter panel**, KPI cards, trend analysis, category performance, top-product analysis, and customer segmentation.
 
 ### Dashboard KPIs
 
@@ -378,34 +380,30 @@ The dashboard includes:
 
 * **Total Revenue:** ₹357.76M
 * **Total Profit:** ₹68.00M
+* **Profit Margin:** 19.01%
 * **Total Orders:** 15,000
 * **Average Order Value:** ₹23,850.96
-* **Return Rate:** 7.00%
 
 ### Dashboard Visualizations
 
-The dashboard contains:
+The redesigned dashboard contains:
 
-* Monthly Revenue Trend
-* Monthly Profit Trend
-* Monthly Returns
+* Revenue & Profit Trend
 * Revenue by Category
 * Profit by Category
 * Top 10 Products by Revenue
-* Order Status Distribution
-* Orders by Payment Method
-* Shipping Performance
 * Customer Segments
 
 ### Interactive Filters
 
-The dashboard includes slicers for:
+The dashboard includes a dedicated filter panel with slicers for:
 
 * **Date Range**
 * **Category**
 * **Order Status**
+* **Payment Method**
 
-These filters allow users to interactively explore different portions of the retail data.
+These filters allow users to interactively explore different portions of the retail data while updating the dashboard KPIs and visualizations.
 
 ### Power BI Data Model
 
@@ -503,7 +501,7 @@ retail BI analytics/
 │   └── retail_bi_dashboard.png
 │
 ├── Power BI/
-│   └── dashboard.pbix
+│   └── Retail BI Dashboard.pbix
 │
 ├── Python/
 │   ├── generate_data.py
@@ -524,7 +522,7 @@ retail BI analytics/
 | `Data/Raw/`               | Original synthetic datasets generated using Python      |
 | `Data/Cleaned/`           | Cleaned datasets used for database loading and analysis |
 | `images/`                 | Dashboard screenshots used in the README                |
-| `Power BI/`               | Power BI dashboard file                                 |
+| `Power BI/`               | Redesigned Power BI dashboard file                      |
 | `Python/generate_data.py` | Generates the synthetic retail dataset                  |
 | `Python/clean_data.py`    | Cleans and transforms the generated data                |
 | `SQL/schema.sql`          | Creates the database tables and relationships           |
